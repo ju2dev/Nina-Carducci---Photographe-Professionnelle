@@ -32,36 +32,78 @@
 
 	<script type="application/ld+json">
 		{
-			"@context": "https://schema.org",
-			"@type": "LocalBusiness",
-			"name": "Nina Carducci - Photographe Professionnelle",
-			"image": "https://www.ninacarducci.com/assets/images/nina.webp",
-			"description": "Photographe professionnelle à Bordeaux spécialisée dans les portraits, événements et retouches photos",
-			"address": {
-			  "@type": "PostalAddress",
-			  "streetAddress": "68 avenue Alsace-Lorraine",
-			  "addressLocality": "Bordeaux",
-			  "postalCode": "33200",
-			  "addressCountry": "FR"
-			},
-			"telephone": "05 56 67 78 89",
-			"url": "https://www.ninacarducci.com",
-			"openingHoursSpecification": [
-			  {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-				  "Monday",
-				  "Tuesday", 
-				  "Wednesday",
-				  "Thursday",
-				  "Friday"
-				],
-				"opens": "10:00",
-				"closes": "19:00"
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci - Photographe Professionnelle",
+		  "image": "https://www.ninacarducci.com/assets/images/nina.webp",
+		  "description": "Photographe professionnelle à Bordeaux spécialisée dans les portraits, événements et retouches photos",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "url": "https://www.ninacarducci.com",
+		  "openingHoursSpecification": [
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": [
+				"Monday",
+				"Tuesday", 
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			  ],
+			  "opens": "10:00",
+			  "closes": "19:00"
+			}
+		  ],
+		  "serviceOffer": [
+			{
+			  "@type": "Offer",
+			  "name": "Shooting photo",
+			  "description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos.",
+			  "price": "350",
+			  "priceCurrency": "EUR",
+			  "priceRange": "$$",
+			  "eligibleRegion": {
+				"@type": "Place",
+				"name": "Île-de-France"
+			  },
+			  "includedInPriceSpecification": {
+				"@type": "PriceSpecification",
+				"name": "Matériel et déplacement inclus"
 			  }
-			]
-		  }
-</script>
+			},
+			{
+			  "@type": "Offer",
+			  "name": "Retouches",
+			  "description": "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficiez d’un rendu optimal pour vos publications.",
+			  "price": "50",
+			  "priceCurrency": "EUR",
+			  "priceRange": "$",
+			  "priceSpecification": {
+				"@type": "PriceSpecification",
+				"name": "2 AR par photo"
+			  }
+			},
+			{
+			  "@type": "Offer",
+			  "name": "Album photos",
+			  "description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé.",
+			  "price": "400",
+			  "priceCurrency": "EUR",
+			  "priceRange": "$$",
+			  "priceSpecification": {
+				"@type": "PriceSpecification",
+				"name": "Album A4, 30 pages recto/verso"
+			  }
+			}
+		  ]
+		}
+	  </script>
 </head>
 
 <body>
